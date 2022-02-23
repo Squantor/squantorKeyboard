@@ -1,5 +1,4 @@
-# Generic project mechanical components
+# Keyboard mechanical parts
 All mechanical components used in the project reside here.
 ## Mechanical parts
-A breakdown of each freecad project
-* Testproject
+* [left switch plate](split_ortho_left/split_ortho_left.md) of a split ortholinear keyboard
