@@ -376,7 +376,7 @@
     (property "Value" "ent" (id 1) (at 280.67 157.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SquantorSwitches:KAILH_choc_keycap_2" (id 2) (at 279.4 156.21 0)
+    (property "Footprint" "SquantorSwitches:KAILH_choc_keycap_2_vertical" (id 2) (at 279.4 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 279.4 156.21 0)
@@ -445,7 +445,7 @@
     (property "Value" "0" (id 1) (at 261.62 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SquantorSwitches:KAILH_choc_keycap_2" (id 2) (at 264.16 156.21 0)
+    (property "Footprint" "SquantorSwitches:KAILH_choc_keycap_2_horizontal" (id 2) (at 264.16 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 264.16 156.21 0)
@@ -514,7 +514,7 @@
     (property "Value" "+" (id 1) (at 279.4 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SquantorSwitches:KAILH_choc_keycap_2" (id 2) (at 279.4 146.05 0)
+    (property "Footprint" "SquantorSwitches:KAILH_choc_keycap_2_vertical" (id 2) (at 279.4 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 279.4 146.05 0)
@@ -725,7 +725,7 @@
       (reference "cap4") (unit 1) (value "1") (footprint "SquantorSwitches:KAILH_choc_keycap_1")
     )
     (path "/46586f3f-ccb3-4688-bf96-26d8b317093e"
-      (reference "cap5") (unit 1) (value "0") (footprint "SquantorSwitches:KAILH_choc_keycap_2")
+      (reference "cap5") (unit 1) (value "0") (footprint "SquantorSwitches:KAILH_choc_keycap_2_horizontal")
     )
     (path "/a19b66d3-f406-4ce2-9e7f-6ceaff8d737f"
       (reference "cap6") (unit 1) (value "/") (footprint "SquantorSwitches:KAILH_choc_keycap_1")
@@ -758,10 +758,10 @@
       (reference "cap15") (unit 1) (value "-") (footprint "SquantorSwitches:KAILH_choc_keycap_1")
     )
     (path "/7aa684ab-344d-440b-882a-86f99a2f3576"
-      (reference "cap16") (unit 1) (value "+") (footprint "SquantorSwitches:KAILH_choc_keycap_2")
+      (reference "cap16") (unit 1) (value "+") (footprint "SquantorSwitches:KAILH_choc_keycap_2_vertical")
     )
     (path "/2aef11e5-d526-4e94-8bfe-a0576a35db83"
-      (reference "cap17") (unit 1) (value "ent") (footprint "SquantorSwitches:KAILH_choc_keycap_2")
+      (reference "cap17") (unit 1) (value "ent") (footprint "SquantorSwitches:KAILH_choc_keycap_2_vertical")
     )
   )
 )
