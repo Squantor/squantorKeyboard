@@ -34,21 +34,6 @@ doxyOutput/
 #vscode files that are better ignored
 settings.json
 
-#kicad temporaries
-*.kicad_pcb-bak
-*.sch-bak
-*.net
-*.tmp
-*.bak
-_autosave*
-
-# kicad outputs
-plots/
-plots-*/
-*_plots_*/
-*_plots/
-*.zip
-
 # freecad backup files
 *.FCStd?
 
@@ -57,3 +42,44 @@ plots-*/
 
 #cortex debug temporaries
 .cortex-debug*
+
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# kicad outputs
+plots/
+plots-*/
+*_plots_*/
+*_plots/
+*.zip
+
+# additional directories
+rescue-backup/
+
+#various caches
+fp-info-cache
+*-cache.lib
+
+# kicad 6 temporaries and local settings
+*-backups/
+*.kicad_prl
